@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+    color: white;
+}
+header{
+    background-image: url(./photos/img_bg_2.jpg.webp);
+    background-size: 100%;
+    height: 600px;
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 700px;
+    width: 800px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.yellow-p:hover{
+    color:rgb(255,221,0);
+}
+.tour-page{
+    font-size: 24px;
+    padding: 20px 0 0 20px;
+}
+.tour-name{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 32px;
+    margin-top: 200px;
+}
+.yellow-div{
+    background-color: rgb(44,46,62);
+    width: 110px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.blocks{
+    display: flex;
+    justify-content: space-evenly;
+    width: 460px;
+    margin: 200px 0 0 120px;
+}
+.check-ins{
+    background-color: rgb(44,46,62);
+    height: 200px;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.location, .date, .num{
+    padding-left: 15px;
+    background-color: rgb(51,53,68);
+    height: 50px;
+    border: 2px solid rgb(148,149,157);
+}
+.date{
+    width: 200px;
+}
+.location, .num{
+    width:300px;
+}
+.location::placeholder, .date::placeholder{
+    color: rgb(148,149,157);
+}
+.flight-button{
+    background-color: rgb(255,221,0);
+    border-radius: 25px;
+    width: 200px;
+    height: 50px;
+    color: rgb(44,46,62);
+}
+.about{
+    display: flex;
+    justify-content: space-evenly;
+    color: black;
+    align-items: center;
+    height: 500px;
+    background-color: rgb(0,187,240);
+}
+.info-block{
+    display: flex;
+    flex-direction: column;
+}
+.round{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(247,247,247);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
