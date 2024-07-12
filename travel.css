@@ -5,7 +5,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Quicksand", sans-serif;
-    color: white;
 }
 ::selection {
     background-color: yellow;
@@ -15,6 +14,7 @@ header {
     background-image: url(./photos/img_bg_2.jpg.webp);
     background-size: 100%;
     height: 600px;
+    color: white;
 }
 
 .row {
@@ -62,6 +62,7 @@ header {
 .check-ins {
     background-color: rgb(44, 46, 62);
     height: 200px;
+    color: white;
     font-size: 13px;
     display: flex;
     justify-content: space-evenly;
@@ -253,10 +254,18 @@ header {
     position: relative;
     bottom: 150px;
 }
-.column{
+.column, .colunm{
     display: flex;
     flex-direction: column;
     color: black;
+    justify-content: space-evenly;
+    margin-left: 50px;
+}
+.colunm{
+    width: 300px;
+}
+.recent-img{
+    margin-left: 180px;
 }
 .recent-info{
     color: black;
@@ -269,4 +278,12 @@ header {
 }
 .round-rec{
     border-radius: 100%;
+}
+.row-recent{
+    display: flex;
+}
+.sale{
+    background-image: url(./photos/overlayimg.webp);
+    height: 450px;
+    margin-top: 100px;
 }
